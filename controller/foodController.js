@@ -38,7 +38,7 @@ const addFood = async (req, res)=>{
         fats
     });
 
-    res.status(404).json({
+    res.status(201).json({
         message: "Food Item added successfully",
         data: food
     })
